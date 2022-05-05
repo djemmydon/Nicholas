@@ -1,0 +1,49 @@
+nav {
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar span {
+  font-size: 1.5rem;
+}
+ 
+.navbar .naving  {
+    display:flex;
+    gap: 30px;
+    transform:scale(0)
+} 
+.navbar .naving.active  {
+    display:flex;
+    gap: 30px;
+    transform:scale(1)
+}
+
+.navbar ul li {
+   list-style: none;
+   cursor: pointer;
+}
+
+
+/* hero */
+
+.hero {
+  background-image: url(./header-bg.jpg);
+  height: 100vh;
+  max-width: 100%;
+}
+
+
+.button {
+
+
+}
+
+
+
+

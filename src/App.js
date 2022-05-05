@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <>
+  <Navbar />
+
+
+  <Hero textHeader="WELCOME TO PIXOVA LITE" textBig="Free & Modern One-Page Parallax WordPress Theme " textPara="Your cool business headline here. You can even insert HTML here & images. Lorem ipsum dolor sit amet lorem dolor sit amet."/>
+  
+  </>;
 }
 
 export default App;
