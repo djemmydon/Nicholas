@@ -5,7 +5,10 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-    <h2>We are still building</h2>
+      <div className="www">
+        <p>CarPro</p>
+        <h2>We are currenctly Working On the website</h2>
+      </div>
     </>
     )
 }
