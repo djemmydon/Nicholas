@@ -30,9 +30,23 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: scale(1);
   }
   to {
-    transform: rotate(360deg);
+   transform: scale(2);
   }
+}
+
+.www p {
+   animation: App-logo-spin infinite 20s linear;
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-size: 2rem;
+  width: 300px;
+}
+.www h2 {
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  width: 300px;
 }
